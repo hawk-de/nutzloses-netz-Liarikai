@@ -1,22 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 html {
-        font-size: 100%;
+        font-size: 200%;
       } /*16px*/
 
       body {
-        background-color: #434385;
+        background-color: #171740;
         display: flex;
         margin: 0 0;
-        color: #1d2429;
+        font-family: 'Square Peg';
+        color: #ffffff;
+      }
+
+      a {
+        color: #ffffff;
       }
       /*
-       see A Complete Guide to Flexbox
-        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-       */
+     
       .container {
+        flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
+        gap: 20px;
       }
       .flex-item {
         align-self: center;
